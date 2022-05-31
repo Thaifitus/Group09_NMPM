@@ -5,7 +5,7 @@ Project nhập môn phần mềm Group09 - Lớp 20CLC09
 
 /docs: used to store documentations, which has the following folders
 
-		▪ management: storing planning documents, reports (weekly report, project
+		▪ management: storing planning documents, link Google Docs, reports (weekly report, project
 		status report, etc.)
 
 		▪ requirements: storing all requirements, including vision document and use
