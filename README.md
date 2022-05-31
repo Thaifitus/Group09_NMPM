@@ -2,6 +2,7 @@
 Project nhập môn phần mềm Group09 - Lớp 20CLC09
 
 /src: used to store source code
+
 /docs: used to store documentations, which has the following folders
 	▪ management: storing planning documents, reports (weekly report, project
 	status report, etc.)
