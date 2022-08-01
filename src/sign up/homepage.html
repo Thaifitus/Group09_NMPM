@@ -17,17 +17,25 @@
     <div class="homepage">
         <div class="modal">
             <div class="moder__overlay-homepage">
+                <!-- Header -->
                 <header class="header">
                     <div class="grid">
                         <nav class="header__navbar">
                             <div class="header__navbar-left">
                                 <div class="header__navbar-item">
-                                    <i class="fas fa-list header__navbar-icon"></i>
+                                    <i class="fas fa-list header__navbar-icon header__navbar-icon--sidebar"></i>
                                     <i class="fas fa-play header__navbar-icon header__navbar-icon--video"></i>
                                     <span class="header__navbar-text--topic">VidNight</span>
                                 </div>
                             </div>
-                            <div class="header__navbar-mid"></div>
+                            <div class="header__navbar-mid">
+                                <div class="header-with-search">
+                                    <input type="text" class="header__search-input" placeholder="Search">
+                                    <div class="header__search-btn">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="header__navbar-right">
                                 <div class="header__navbar-item">
                                     <div class="header__navbar-item--add">
@@ -45,8 +53,460 @@
                         </nav>
                     </div>
                 </header>
+
+                <!-- Container -->
+                <div class="container">
+                    <div class="grid">
+                        <div class="grid__row">
+                            <div class="grid__column-2">
+                                <nav class="category">
+                                    <h3 class="category__heading--sidebar">MENU</h3>
+            
+                                    <ul class="category-list">
+                                        <li class="category-item active">
+                                            <div class="category-icon">
+                                                <i class="fas fa-home"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Home</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-compass"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Browse</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-fire"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Trending</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-window-maximize"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Following</a>
+                                        </li>
+                                    </ul>
+        
+                                    <h3 class="category__heading">LIBRARY</h3>
+            
+                                    <ul class="category-list">
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-window-maximize"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Recent</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Favourites</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-window-maximize"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Saved</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <i class="fas fa-video"></i>
+                                            </div>
+                                            <a href="" class="category-item__link">Your Videos</a>
+                                        </li>
+                                    </ul>
+        
+                                    <h3 class="category__heading">FOLLOWING</h3>
+            
+                                    <ul class="category-list">
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <img src="./assets/img/dh.jpg" alt="" class="categoty-img">
+                                            </div>
+                                            <a href="" class="category-item__link">Dương Hiếu</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <img src="./assets/img/huân.jpg" alt="" class="categoty-img">
+                                            </div>
+                                            <a href="" class="category-item__link">Quốc Huân</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <img src="./assets/img/thái.jpg" alt="" class="categoty-img">
+                                            </div>
+                                            <a href="" class="category-item__link">Nguyễn Thái</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <div class="category-icon">
+                                                <img src="./assets/img/thuý.jpg" alt="" class="categoty-img">
+                                            </div>
+                                            <a href="" class="category-item__link">Thanh Thuý</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="grid__column-10">
+                                <div class="home-browse">
+                                    <div class="grid__row">
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text--main">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/an_webp/-UH0-fh3SM4/mqdefault_6s.webp?du=3000&sqp=CLiKoJcG&rs=AOn4CLDOWnphvL06Vaof24r1JUwECV9e_g" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">[MSI 2022] Highlight T1 vs G2 FULL Bán Kết : Faker hành "rạp xiếc" ra bã | T1 Esports vs G2 Esports</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.1Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">1 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/ytc/AMLnZu8Nqx6pS7rm_9hUF51ZpFzQeGuYATn31siaNu72=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">XTV Esports</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/UJiyTXr_4Ho/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxAGLUhvftbhuPQ-Kdv_4jDkBBMA" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">XÓM CHÙA -TẬP 4 | NSƯT CÔNG NINH,VIỆT HƯƠNG,THÁI HOÀ,QUÁCH NGỌC TUYÊN, HỨA MINH ĐẠT,STEVEN NGUYỄN</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">740K views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">4 hours ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/ipcS5FTh78XEjTV945o26cHnOIympdAbngFf2frxSJNeLpO5lTo1B1_BccJbg6wnuUtdD-o34g=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">Việt Hương</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/an_webp/l6D5frb1VEE/mqdefault_6s.webp?du=3000&sqp=COiboJcG&rs=AOn4CLDndBp7vW8V5SB4B3J-DrBnAkVEog" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">Doraemon: Nobita và những hiệp sĩ không gian | Doraemon Tập Dài</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">5.4Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">1 year ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/ytc/AMLnZu8ES0oEn3Ju3fcLfoA4Gsv34rugxKDvLYDH8_L6=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">Đôrêmon</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/QOds3bCWupQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDhosNRgGQSt39V0h85fTAqv2eZGg" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">NEYMAR – MESSI CÓ DANH HIỆU ĐẦU TIÊN CỦA MÙA GIẢI: THÀNH CÔNG CỦA PSG TRONG HÌNH HÀI MỚI</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">68.4K views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">1 thg 8, 2022 </span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/1xn7I1sOERsJgEbFHjJ8ZFhGKiFKgphTktrVxeJQkNxGntlnyzpynD8X_PutDf5tBfuJpI8oyg=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">BLV Anh Quân</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text--main">
+                                                <span>FOR YOU</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div>
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <!-- <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div> -->
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <!-- <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div> -->
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <!-- <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div> -->
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <!-- <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div> -->
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="grid__column-2-4">
+                                            <!-- <div class="home-topic__text">
+                                                <span>TRENDING</span>
+                                            </div> -->
+                                            <a href="" class="home-browse__link">
+                                                    <!-- Video Item -->
+                                                <div class="home-browse-item">
+                                                    <img src="https://i.ytimg.com/vi/1ZTUBorHuBs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLebmadl7YfNL15t6ckAdYqke2ug" alt="" class="home-browse-item__img">
+                                                    <h4 class="home-browse-item__name">HIGHLIGHTS: MAN CITY - LIVERPOOL | DẤU ẤN TÂN BINH, NGÔI VƯƠNG XỨNG ĐÁNG | FA COMMUNITY SHIELD 2022</h4>
+                                                    <div class="home-browse-item__view-day">
+                                                        <span class="home-browse-item__view">1.7Tr views</span>
+                                                        <div class="home-browse-item__icon">
+                                                            <i class="fas fa-circle"></i>
+                                                        </div>
+                                                        <span class="home-browse-item__day">3 days ago</span>
+                                                    </div>
+                                                    <div class="home-browse-item__channel-owner">
+                                                        <img src="https://yt3.ggpht.com/_ZlG6PR6zyfOCaSL1KFHmIOZWR3tDHqLj_21IBf4LqryN9QJuECX_7WYsBSvOVhjxIVXHYj0=s88-c-k-c0x00ffffff-no-rj" alt="" class="home-browse-item__channel-img">
+                                                        <span class="home-browse-item__channel-name">FPT Bóng Đá</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+<script src="homepage.js"></script>
 </body>
 </html>
